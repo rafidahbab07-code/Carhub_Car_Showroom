@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Carhub</title>
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+        <link rel="stylesheet"
+               href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
+    </head>
+    <body class="contact">
+        <div class="card">
+            <nav class="navbar">
+                <h2>CarHub</h2>
+            <div class="nav-links">
+                <a href="Carhub.html">Home</a>
+                <a href="cars.html">Cars</a>
+                <a href="about.html">About</a>
+                <a href="contact.html" class="active">Contact</a>
+            </div>
+            </nav>
+        <section class="hero">
+            <div class="overlay">
+                <div class="hero-text">
+                    <h1>Contact Us</h1>
+                    <div class="line"></div>
+                    <p class="p">Have questions or want to get in touch? <br>
+                        Fill out the form below <br> 
+                        and we'll get back to you as soon as possible.</p>
+                </div>
+            </div>
+        </section>
+        </div>
+        <div class="contact-container">
+            <div class="contact-form">
+                <form>
+                <h2><i class="fas fa-envelope"></i> Send us a message</h2>
+                <fieldset>
+                    <legend>Personal Information</legend>
+                <div class="row">
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your Name">
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your Email" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div>
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Enter your Phone no." required>
+                    </div>
+                    <div>
+                        <label for="location">Location</label>
+                        <input type="text" id="location" name="location" placeholder="Enter your Current Location" required>
+                    </div>
+                </div>
+                </fieldset>
+                <fieldset>
+                    <legend> Inquiry Details</legend>
+                    <div class="row box">
+                        <div>
+                            <label for="car-brand">Interested in</label>
+                            <select id="car-brand" name="car-brand" placeholder="Select Brand Name">
+                                <option value="Audi">Audi</option>
+                                <option value="BMW">BMW</option>
+                                <option value="Mercedes">Mercedes</option>
+                                <option value="Toyota">Toyota</option>
+                                <option value="Honda">Honda</option>
+                                <option value="Ford">Ford</option>
+                                <option value="Chevrolet">Chevrolet</option>
+                                <option value="Nissan">Nissan</option>
+                                <option value="Porsche">Porsche</option>
+                                <option value="hummer">Hummer</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="budget">Budget</label>
+                            <input type="number" id="budget" name="budget" min="0" step="1000" placeholder="Tell your Budget">
+                        </div>
+                    </div>
+                    <div class="sub">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="Enter Message Subject" required></textarea>
+                    </div>
+                    <div class="box">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Enter your Message" required></textarea>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="sidebar">
+                <div class="info-card">
+                    <h2><i class="fas fa-phone"></i> Get in touch</h2>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Address</h3>
+                            <p>123 CarHub Street, Auto City, Country</p>
+                        </div>
+                        
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>info@carhub.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-location-dot"></i>
+                         <div>
+                           <h4>Location</h4>
+                           <p>Dhaka, Bangladesh</p>
+                         </div>
+                    </div>
+                    
+                </div>
+             <div class="info-card">
+                <h2>Why Choose Carhub?</h2>
+                <p class="why-carhub"><i class="fas fa-circle-check"></i>Wide range of premium cars</p>
+                <p class="why-carhub"><i class="fas fa-circle-check"></i>Best Price Guarantee</p>
+                <p class="why-carhub"><i class="fas fa-circle-check"></i>Trusted By Thousands</p>
+                <p class="why-carhub"><i class="fas fa-circle-check"></i>24/7 Customer Support</p>
+            </div>
+        </div>
+        </div>
+        <div class="button">
+            
+                <button type="submit" class="submit">Submit Form</button>
+                <button type="reset" class="reset">Reset Form</button>
+            
+        </div>
+    </form>
+    </body>
+    <footer class="footer">
+    © 2026 Carhub. All Rights Reserved.
+</footer>
+
+</html>
+
+           
