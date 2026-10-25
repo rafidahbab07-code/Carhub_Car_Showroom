@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carhub Cars</title>
-    <link rel="stylesheet" href="./style.css"> 
+    <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet"
                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
                <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
@@ -30,183 +30,196 @@
             <div class="menu-icon">
                 <i class="fas fa-bars"></i>
             </div>
-            
+
             </nav>
              <section class="hero">
          <div class="overlay">
             <div class="hero-text">
-            <h1>Our Cars</h1>
+            <h1 id="page-title">Our Cars</h1>
              <div class="line"></div>
-            <p>Explore our collection of premium and performance vehicles</p>
+            <p id="page-subtitle">Explore our collection of premium and performance vehicles</p>
             </div>
             </div>
           </section>
         </div>
+
+       <!-- One grid for all cars. Each card has a data-category (german / american / jdm). -->
        <div class="cars-grid">
 
-    <a href="g63-real.html" class="car-card">
+    <a href="g63-real.html" data-category="german" class="car-card">
         <img src="assets/images/cars/GWagon.webp" class="image">
 
         <div class="overlay-content"></div>
         <div class="car-name">
             <h3>Mercedes-AMG G63</h3>
-            
-        </div>  
+        </div>
     </a>
 
-    <a href="gtr.html" class="car-card">
+    <a href="gtr.html" data-category="jdm" class="car-card">
         <img src="assets/images/cars/gtr.jpeg" class="image">
 
         <div class="overlay-content"></div>
-           <div class="car-name">
+        <div class="car-name">
             <h3>Nissan GTR R35</h3>
-            
-           </div>
+        </div>
     </a>
 
-    <a href="camaro.html" class="car-card">
+    <a href="camaro.html" data-category="american" class="car-card">
         <img src="assets/images/cars/Camaro2.avif" class="image">
 
         <div class="overlay-content"></div>
-            <div class="car-name">
+        <div class="car-name">
             <h3>Chevrolet Camaro</h3>
-            
-            </div>
-        
+        </div>
+    </a>
+
+    <a href="nsx.html" data-category="jdm" class="car-card">
+        <img src="assets/images/cars/acura-nsx.jpg" class="image">
+        <div class="overlay-content"></div>
+        <div class="car-name">
+            <h3>Acura NSX</h3>
+        </div>
+    </a>
+
+    <a href="rs6.html" data-category="german" class="car-card">
+        <img src="assets/images/cars/audi rs6.jpeg" class="image">
+        <div class="overlay-content"></div>
+        <div class="car-name">
+            <h3>Audi RS6</h3>
+        </div>
+    </a>
+
+    <a href="911.html" data-category="german" class="car-card">
+        <img src="assets/images/cars/911-gt3.jpg" class="image">
+        <div class="overlay-content"></div>
+        <div class="car-name">
+            <h3>Porsche 911 GT3 RS</h3>
+        </div>
+    </a>
+
+    <a href="mustang.html" data-category="american" class="car-card">
+        <img src="assets/images/cars/mustang.jpeg" class="image">
+        <div class="overlay-content"></div>
+        <div class="car-name">
+            <h3>Shelby GT500</h3>
+        </div>
+    </a>
+
+    <a href="s-class.html" data-category="german" class="car-card">
+        <img src="assets/images/cars/Benz.jpg" class="image">
+        <div class="overlay-content"></div>
+        <div class="car-name">
+            <h3>Mercedes-Benz S580</h3>
+        </div>
+    </a>
+
+    <a href="m5.html" data-category="german" class="car-card">
+        <img src="assets/images/cars/bmw.jpg" class="image">
+        <div class="overlay-content"></div>
+        <div class="car-name">
+            <h3>BMW M5 Competition</h3>
+        </div>
+    </a>
+
+    <a href="prado.html" data-category="jdm" class="car-card">
+        <img src="assets/images/cars/LC.jpg" class="image">
+        <div class="overlay-content"></div>
+        <div class="car-name">
+            <h3>Land Cruiser Prado</h3>
+        </div>
+    </a>
+
+    <a href="hummer.html" data-category="american" class="car-card">
+        <img src="assets/images/cars/hummer.jpg" class="image">
+        <div class="overlay-content"></div>
+        <div class="car-name">
+            <h3>Hummer H1</h3>
+        </div>
+    </a>
+
+    <a href="supra.html" data-category="jdm" class="car-card">
+        <img src="assets/images/cars/supra.jpg" class="image">
+        <div class="overlay-content"></div>
+        <div class="car-name">
+            <h3>Toyota Supra Mk5</h3>
+        </div>
+    </a>
+
+    <a href="amg-gtr.html" data-category="german" class="car-card featured">
+        <img src="assets/images/cars/amg-gtr.jpg" class="image">
+        <div class="overlay-content"></div>
+        <div class="car-name">
+            <h3>Mercedes-AMG GTR</h3>
+        </div>
+    </a>
+
+    <a href="challenger.html" data-category="american" class="car-card">
+        <img src="assets/images/cars/challenger.jpg" class="image">
+        <div class="overlay-content"></div>
+        <div class="car-name">
+            <h3>Dodge Challenger SRT Hellcat</h3>
+        </div>
+    </a>
+
+    <a href="lc500.html" data-category="jdm" class="car-card">
+        <img src="assets/images/cars/lc500.jpg" class="image">
+        <div class="overlay-content"></div>
+        <div class="car-name">
+            <h3>Lexus LC 500</h3>
+        </div>
+    </a>
+
+    <a href="corvette.html" data-category="american" class="car-card">
+        <img src="assets/images/cars/corvette.jpg" class="image">
+        <div class="overlay-content"></div>
+        <div class="car-name">
+            <h3>Chevrolet Corvette C8</h3>
+        </div>
+    </a>
+
+    <a href="patrol.html" data-category="jdm" class="car-card">
+        <img src="assets/images/cars/patrol.jpg" class="image">
+        <div class="overlay-content"></div>
+        <div class="car-name">
+            <h3>Nissan Patrol</h3>
+        </div>
+    </a>
+
+    <a href="r8.html" data-category="german" class="car-card">
+        <img src="assets/images/cars/audi-r8.jpg" class="image">
+        <div class="overlay-content"></div>
+        <div class="car-name">
+            <h3>Audi R8</h3>
+        </div>
     </a>
 
 </div>
-        <div class="cars-grid">
-            <a href="nsx.html" class="car-card">
-                <img src="assets/images/cars/acura-nsx.jpg" class="image">
-            <div class="overlay-content"></div>
-                <div class="car-name">
-                    <h3>Acura NSX</h3>
-                   
-                </div>
-            </a>
-            <a href="rs6.html" class="car-card">
-                <img src="assets/images/cars/audi rs6.jpeg" class="image">
-            <div class="overlay-content"></div>
-                <div class="car-name">
-                    <h3>Audi RS6</h3>
-                   
-                </div>
-            </a>
-            <a href="911.html" class="car-card">
-                <img src="assets/images/cars/911-gt3.jpg" class="image">
-            <div class="overlay-content"></div>
-                <div class="car-name">
-                    <h3>Porsche 911 GT3 RS</h3>
-                    
-                </div>
-            </a>
-        </div>
-        <div class="cars-grid">
-            <a href="mustang.html" class="car-card">
-                <img src="assets/images/cars/mustang.jpeg" class="image">
-                <div class="overlay-content"></div>
-                <div class="car-name">
-                    <h3>Shelby GT500</h3>
-                    
-                </div>
-            </a>
-            <a href="s-class.html" class="car-card">
-                <img src="assets/images/cars/Benz.jpg" class="image">
-                <div class="overlay-content"></div>
-                <div class="car-name">
-                    <h3>Mercedes-Benz S580</h3>
-                    
-                </div>
-            </a>
-            <a href="m5.html" class="car-card">
-                <img src="assets/images/cars/bmw.jpg" class="image">
-                <div class="overlay-content"></div>
-                <div class="car-name">
-                    <h3>BMW M5 Competition</h3>
-                    
-                </div>
-            </a>
-            <a href="prado.html" class="car-card">
-                <img src="assets/images/cars/LC.jpg" class="image">
-                <div class="overlay-content"></div>
-                <div class="car-name">
-                    <h3>Land Cruiser Prado</h3>
-                    
-                </div>  
-            </a>
-            <a href="hummer.html" class="car-card">
-                <img src="assets/images/cars/hummer.jpg" class="image">
-                <div class="overlay-content"></div>
-                <div class="car-name">
-                    <h3>Hummer H1</h3>
-                    
-                </div>
-            </a>
-            <a href="supra.html" class="car-card">
-                <img src="assets/images/cars/supra.jpg" class="image">
-                <div class="overlay-content"></div>
-                <div class="car-name">
-                    <h3>Toyota Supra Mk5</h3>
-                   
-                </div>
-            </a>
-            
-        </div>
-        <div class="cars-grid">
-            <a href="amg-gtr.html" class="car-card featured">
-                <img src="assets/images/cars/amg-gtr.jpg" class="image">
-                <div class="overlay-content"></div>
-                <div class="car-name">
-                    <h3>Mercedes-AMG GTR</h3>
-                    
-                </div>
-            </a>
-            <a href="challenger.html" class="car-card">
-                <img src="assets/images/cars/challenger.jpg" class="image">
-                <div class="overlay-content"></div>
-                <div class="car-name">
-                    <h3>Dodge Challenger SRT Hellcat</h3>
-                    
-                </div>
-            </a>
-            <a href="lc500.html" class="car-card">
-                <img src="assets/images/cars/lc500.jpg" class="image">
-                <div class="overlay-content"></div>
-                <div class="car-name">
-                    <h3>Lexus LC 500</h3>
-                   
-                </div>
-            </a>    
-            <a href="corvette.html" class="car-card">
-                <img src="assets/images/cars/corvette.jpg" class="image">
-                <div class="overlay-content"></div>
-                <div class="car-name">
-                    <h3>Chevrolet Corvette C8</h3>
-                    
-                </div>
-            </a>
-            <a href="patrol.html" class="car-card">
-                <img src="assets/images/cars/patrol.jpg" class="image">
-                <div class="overlay-content"></div>
-                <div class="car-name">
-                    <h3>Nissan Patrol</h3>
-                    
-                </div>
-            </a>
-            <a href="r8.html" class="car-card">
-                <img src="assets/images/cars/audi-r8.jpg" class="image">
-                <div class="overlay-content"></div>
-                <div class="car-name">
-                    <h3>Audi R8</h3>
-                   
-                </div>
-            </a>
 
-        </div>
-    </body>
-    
 <footer class="footer">
     © 2026 Carhub. All Rights Reserved.
 </footer>
+
+<script>
+    // Reads ?category=german | american | jdm from the URL and shows only those cars.
+    // No category (or an unknown one) = show all cars.
+    const pages = {
+        german:   { title: "German Cars",          subtitle: "German engineering at its finest" },
+        american: { title: "American Muscle Cars", subtitle: "Raw power, straight from the USA" },
+        jdm:      { title: "JDM Legends",          subtitle: "Japanese icons that defined performance" }
+    };
+
+    const category = new URLSearchParams(window.location.search).get("category");
+
+    if (category && pages[category]) {
+        document.querySelectorAll(".cars-grid .car-card").forEach(card => {
+            if (card.dataset.category !== category) {
+                card.style.display = "none";
+            }
+        });
+        document.getElementById("page-title").textContent = pages[category].title;
+        document.getElementById("page-subtitle").textContent = pages[category].subtitle;
+        document.title = "Carhub - " + pages[category].title;
+    }
+</script>
+    </body>
 </html>
